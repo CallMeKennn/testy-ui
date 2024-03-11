@@ -1,0 +1,29 @@
+.banners-container {
+    display: flex;
+    width: 112rem;
+
+    .banner {
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        width: 37rem;
+        height: 16rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url("../../Assets/bg.png");
+        position: relative;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 3.5rem;
+        left: 3rem;
+        .banner-name, .banner-title{
+            font-weight: 600;
+            font-size: 1.8rem;
+        }
+
+        .banner-discription{
+            margin-top: 2.6rem;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+
+    .App {
+        display: flex;
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        
+
+        .app-container {
+            width: 141rem;
+            background-color: green;
+        }
+
+        .slider{
+            width: 141rem;
+            margin-top: 6rem;
+            display: flex;
+        }
+    }
+}
+
+

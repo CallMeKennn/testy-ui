@@ -1,0 +1,16 @@
+.productList-container{
+    display: flex;
+    margin-top: 10rem;
+
+    .productList-1{
+        width: 46.7rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .productList-offer{
+        width: 46.6rem;
+        height: 75.1rem;
+        background-color: aquamarine;
+    }
+}

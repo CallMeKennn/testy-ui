@@ -1,16 +1,117 @@
-.productList-container{
+.productList-container {
     display: flex;
     margin-top: 10rem;
 
-    .productList-1{
+    .productList {
         width: 46.7rem;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .productList-offer{
+    .productList-offer {
         width: 46.6rem;
         height: 75.1rem;
-        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title-today {
+            width: 38.6rem;
+
+            h2 {
+                margin-bottom: 2rem;
+            }
+
+            hr {
+                width: 38.6rem;
+            }
+        }
+
+        .discountProductOffer {
+            position: absolute;
+            padding: 0.8rem 1.5rem;
+            background-color: #dc323c;
+            color: #fff;
+        }
+
+        .infomation-offer {
+            flex-direction: column;
+            margin-top: 2rem;
+
+            img {
+                width: 38.6rem;
+                height: 38.6rem;
+            }
+        }
+
+        .info-name {
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin-top: 1.6rem;
+        }
+
+        .info-review {
+            color: #8d979e;
+        }
+
+        .price {
+            margin-top: 0.6rem;
+            color: #dc323c;
+            margin-right: 0.5rem;
+            font-size: 2rem;
+            margin-top: 0.6rem;
+        }
+
+        .starRate {
+            color: #ffb800;
+            margin-top: 1.6rem;
+        }
+
+        .priceSale {
+            color: #8d979e;
+            text-decoration: line-through;
+            font-size: 1.5rem;
+        }
+
+        .infor-product {
+            width: 38.6rem;
+        }
+
+        .time-sale {
+            width: 38.6rem;
+            margin-top: 1.8rem;
+
+            .time-date {
+                display: flex;
+                align-items: center;
+            }
+
+            .time-date div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 4.5rem;
+                height: 5rem;
+                border-radius: 2px;
+                background-color: #dc323c;
+                color: #fff;
+                margin: 0.9rem 1.25rem 2rem 1.25rem;
+            }
+
+            .time-date > div:first-child{
+                margin-left: 0rem;
+            }
+
+            .line-red{
+                width: 33rem;
+                height: 0.5rem;
+                background-color: #dc323c;
+                margin-bottom: 1rem;
+            }
+
+            span{
+                font-weight: 500;
+            }
+        }
     }
 }

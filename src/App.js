@@ -3,6 +3,7 @@ import Header from "./Component/Header";
 import Menu from "./Component/Menu";
 import Slider from "./Component/Slider";
 import ProductList from "./Component/ProductList";
+import Footer from "./Component/Footer";
 
 function App() {
     return (
@@ -11,11 +12,12 @@ function App() {
                 <Header />
 
                 <div className="slider">
-                    <Menu/>
-                    <Slider/>
+                    <Menu />
+                    <Slider />
                 </div>
 
-                <ProductList/>
+                <ProductList />
+                <Footer />
             </div>
         </div>
     );

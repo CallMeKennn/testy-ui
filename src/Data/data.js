@@ -9,8 +9,17 @@ import product9 from "../Assets/product_9.jpg";
 import slider3 from "../Assets/slider3.png";
 import slider2 from "../Assets/slider2.png";
 import slider1 from "../Assets/slider1.png";
+import visa from "../Assets/visa.png"
+import masterCard from "../Assets/masterCard.png"
+import discover from "../Assets/discover.png"
+import westernUnion from "../Assets/westernUnion.png"
+import amex from "../Assets/amex.png"
+import cirrus from "../Assets/cirrus.png"
+import paypal from "../Assets/paypal.png"   
 
 const pages = ["Home", "Shop", "Product", "Page", "Blog", "Contact Us", "Buy Uminex"];
+
+const payments = [visa, masterCard, discover, westernUnion, amex, cirrus, paypal];
 
 const categories = [
     { category: "Computer & Desktop", isList: true },
@@ -120,7 +129,7 @@ const productsList2 = [
     },
 ];
 
-const payment = ["visa", "masterCard", "discover", "westernUnion", "amex", "cirrus", "paypal"];
+
 
 const banners = [
     { title: "Trending", name: "newProduct Phone Pro", discription: "Save 20% On Products", src: slider3 },
@@ -128,4 +137,4 @@ const banners = [
     { title: "iPad Pro", name: "Up To 20% Off", discription: "20 Days Return Products", src: slider1 },
 ];
 
-export { payment, productsList1, productsList2, categories, pages, banners };
+export { payments, productsList1, productsList2, categories, pages, banners };

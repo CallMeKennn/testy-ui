@@ -1,0 +1,84 @@
+.footer-container {
+    margin-top: 5.7rem;
+
+    .about-us {
+        display: flex;
+        justify-content: space-around;
+        color: #515d66;
+        font-size: 1.4rem;
+
+        h4 {
+            margin-bottom: 2.2rem;
+        }
+
+        .phoneNumber {
+            font-size: 3rem;
+            color: #2b38d1;
+            margin-bottom: 2.1rem;
+        }
+
+        .flex1 {
+            flex: 1;
+
+            div {
+                padding: 0.5rem;
+            }
+        }
+        .flex2 {
+            flex: 2;
+
+            div {
+                padding: 0.5rem;
+            }
+        }
+        .flex3 {
+            flex: 3;
+
+            div {
+                padding: 0.5rem;
+            }
+
+            .sendEmail {
+                input {
+                    border: 1px solid #e5e8ec;
+                    margin: 2rem 1rem 1.6rem 0rem;
+                    padding: 1.7rem 0rem 1.7rem 2rem;
+                    width: 30rem;
+                    border-radius: 50px;
+                }
+
+                button {
+                    border: none;
+                    width: 14rem;
+                    height: 5rem;
+                    background-color: #2b38d1;
+                    color: #ffffff;
+                    border-radius: 5rem;
+                }
+            }
+        }
+    }
+
+    .address-and-payment {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 9.5rem;
+        margin-bottom: 10rem;
+
+        h3 {
+            text-transform: uppercase;
+        }
+
+        .payment img {
+            width: 4.3rem;
+            height: 2.2rem;
+            margin-left: 0.9rem;
+        }
+
+        span {
+            font-weight: 600;
+            color: #2b38d1;
+        }
+    }
+}

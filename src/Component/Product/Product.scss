@@ -5,7 +5,6 @@
     .product-main {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         width: 100%;
         position: relative;
@@ -15,15 +14,16 @@
             height: 19.1rem;
         }
 
-        .discount {
+        .discount { 
             position: absolute;
             padding: 0.8rem 1.5rem;
             background-color: #dc323c;
             color: #fff;
         }
 
-        .newProduct {
+        .newProduct { 
             position: absolute;
+           
             padding: 0.8rem 1.5rem;
             background-color: #008a00;
             color: #fff;
@@ -74,11 +74,14 @@
 
 .green {
     color: #008a00;
-    text-transform: uppercase;
     font-size: 1.4rem;
 }
 
 .span {
     color: black;
     font-size: 1.4rem;
+}
+
+.newProduct{
+    text-transform: uppercase;
 }
